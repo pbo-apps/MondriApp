@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mondrian_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/mondrian_black"
+    android:padding="@dimen/mondrian_line_width"
+    tools:showIn="@layout/content_main">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:orientation="vertical"
+        android:background="@color/mondrian_black">
+
+        <TextView
+            android:tag="@string/mondrian_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:background="@color/mondrian_red"
+            android:layout_margin="@dimen/mondrian_line_width" />
+
+        <TextView
+            android:tag="@string/mondrian_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:background="@color/mondrian_white"
+            android:layout_margin="@dimen/mondrian_line_width" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:orientation="horizontal"
+            android:background="@android:color/black">
+
+            <TextView
+                android:tag="@string/mondrian_rect"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/mondrian_blue"
+                android:layout_margin="@dimen/mondrian_line_width" />
+
+            <TextView
+                android:tag="@string/mondrian_rect"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/mondrian_blue"
+                android:layout_margin="@dimen/mondrian_line_width" />
+
+        </LinearLayout>
+
+        <TextView
+            android:tag="@string/mondrian_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@color/mondrian_white"
+            android:layout_margin="@dimen/mondrian_line_width" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:background="@color/mondrian_black">
+
+        <TextView
+            android:tag="@string/mondrian_rect"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:background="@color/mondrian_white"
+            android:layout_margin="@dimen/mondrian_line_width" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65"
+            android:orientation="horizontal"
+            android:background="@color/mondrian_black">
+
+            <TextView
+                android:tag="@string/mondrian_rect"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.35"
+                android:background="@color/mondrian_white"
+                android:layout_margin="@dimen/mondrian_line_width" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.65"
+                android:orientation="vertical"
+                android:background="@color/mondrian_black">
+
+                <TextView
+                    android:tag="@string/mondrian_rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:background="@color/mondrian_yellow"
+                    android:layout_margin="@dimen/mondrian_line_width" />
+
+                <TextView
+                    android:tag="@string/mondrian_rect"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:background="@color/mondrian_white"
+                    android:layout_margin="@dimen/mondrian_line_width" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

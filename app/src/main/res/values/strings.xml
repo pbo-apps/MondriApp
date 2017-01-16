@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ModernArtUI</string>
+    <string name="action_more_info">More Information</string>
+    <string name="action_new_layout">Redraw Mondrian</string>
+    <string name="action_visit_moma">Visit MOMA website</string>
+    <string name="action_not_now">Not now</string>
+    <string name="title_visit_moma">Would you like to visit the MOMA website to discover more?</string>
+    <string name="web_address_moma">http://www.moma.org/collection/artists/4057</string>
+    <string name="mondrian_rect">com.pbo.coursera.modernartui.mondrian_rect</string>
+    <string name="mondrian_layout">com.pbo.coursera.modernartui.mondrian_layout</string>
+</resources>
